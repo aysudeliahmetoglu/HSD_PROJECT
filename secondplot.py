@@ -13,6 +13,7 @@ plt.plot(xlist,ylist**(1/2),label="f(x)**1/2")
 plt.title("Plotting Example")
 plt.xlabel("Distance /  ft")
 plt.ylabel("Height /  ft")
+plt.legend()
 plt.show()
 
 
