@@ -5,5 +5,5 @@ handle="hsdyalova"
 url='https://www.instagram.com/'
 page=urlopen(url+handle).read()
 soup=BeautifulSoup(page,"html.parser")
-string=soup.find('meta',property="og:description")['data-content']
+string=soup.find('name','title')
 print(string)
