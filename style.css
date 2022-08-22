@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+    background: url(HSD_renkli_logo.png);
+    height: 122vh; 
+    background-size: 100% 80%;
+   
+}
